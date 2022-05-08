@@ -10,6 +10,7 @@ public class Sample_Branch_From_B1 {
         this.id=id;
         this.cgpa=cgpa;
         this.income=income;
+
     }
 
     public String getName() {
@@ -42,5 +43,6 @@ public class Sample_Branch_From_B1 {
 
     public void setIncome(double income) {
         this.income = income;
+
     }
 }
