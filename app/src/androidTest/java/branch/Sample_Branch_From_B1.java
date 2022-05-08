@@ -3,13 +3,14 @@ package branch;
 public class Sample_Branch_From_B1 {
     String name, id;
     float cgpa;
-     int number_of_classes;
-    public Sample_Branch_From_B1(String name, String id , float cgpa,int number_of_classes) {
+    double income;
 
+    public Sample_Branch_From_B1(String name , String id, float cgpa,double income) {
         this.name = name;
         this.id=id;
         this.cgpa=cgpa;
-        this.number_of_classes=number_of_classes;
+        this.income=income;
+
     }
 
     public String getName() {
@@ -36,11 +37,12 @@ public class Sample_Branch_From_B1 {
         this.cgpa = cgpa;
     }
 
-    public int getNumber_of_classes() {
-        return number_of_classes;
+    public double getIncome() {
+        return income;
     }
 
-    public void setNumber_of_classes(int number_of_classes) {
-        this.number_of_classes = number_of_classes;
+    public void setIncome(double income) {
+        this.income = income;
+
     }
 }
